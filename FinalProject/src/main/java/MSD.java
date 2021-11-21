@@ -69,7 +69,7 @@ public class MSD {
 
     public static void main(String[] args) 
      {
-        String[] a= {"a","abc","abd","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
+        String[] a= {"a","abc","abcd","abc2","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
             "sells", "zhangsan", "lisi", "jahahh"};
 
         MSD.sort(a);
