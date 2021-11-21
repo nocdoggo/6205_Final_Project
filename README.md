@@ -1,2 +1,3 @@
 # 6205_Final_Project
-The god darn final project for 6205.
+The project is designed to tackle with the `Final Project` requirement for `INFO 6205` course provided by `Northeastern University`.
+
