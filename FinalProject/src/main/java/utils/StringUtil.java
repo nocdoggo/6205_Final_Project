@@ -47,6 +47,12 @@ public class StringUtil {
         return s.charAt(position);
     }
 
+    /**
+     * getChar at the input location
+     * @param s
+     * @param position
+     * @return
+     */
     public int getChar(String s, int position){
         if(position<s.length()){
             return s.charAt(position);
@@ -55,12 +61,26 @@ public class StringUtil {
         }
     }
 
+    /**
+     * swap the location of two element in an array
+     * @param s
+     * @param a
+     * @param b
+     */
     public static void swap(String[] s, int a, int b){
         if(s.length==0) return;
         String temp = s[a];
         s[a] = s[b];
         s[b] = temp;
         return;
+    }
+
+    /**
+     * refer to the java source package and implement a timsort
+     * @param s
+     */
+    public static void sortByTim(String[] s){
+        ComparableTimSort.sort(s, 0, s.length, null, 0, 0);
     }
 
 
