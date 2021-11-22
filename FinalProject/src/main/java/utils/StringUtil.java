@@ -55,4 +55,14 @@ public class StringUtil {
         }
     }
 
+    public static void swap(String[] s, int a, int b){
+        if(s.length==0) return;
+        String temp = s[a];
+        s[a] = s[b];
+        s[b] = temp;
+        return;
+    }
+
+
+
 }
