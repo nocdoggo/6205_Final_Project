@@ -1,4 +1,4 @@
-package edu.info6205;
+package unicodePinyin;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
