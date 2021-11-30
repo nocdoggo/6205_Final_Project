@@ -11,7 +11,7 @@ public class MSD {
 
 
     public static void sort(String[] s,int low,int high,int position){
-        if(high<low){
+        if(high<=low){
             return;
         }else if(high<low+M){
             insertion.sort(s, low, high);
@@ -29,7 +29,7 @@ public class MSD {
         }
 
         if (high>=low){
-            System.arraycopy(temp, 0, s, low, high - low);
+            System.arraycopy(temp, 0, s, low, high - low+1);
         }
         for(int r=0;r<R;r++){
             int newLow = low + count[r];
@@ -47,11 +47,11 @@ public class MSD {
 
 
     public static void main(String[] args){
-        String[] a= {"a","abc","abcd","abc2","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
-            "sells", "zhangsan", "lisi", "jahahh"};
+        String[] a= {"liuchiping","hongwensheng","fanhuihui","suhuimin","gaominzheng", "caoyude", "yuanjipeng", "shudongmei", "yanglaxiang",
+            "xx"};
         MSD.sort(a);
         for(int i = 0; i < a.length; i++){
-            System.out.println(a[i]);
+            System.out.println(i+"="+a[i]);
         } 
      }
 

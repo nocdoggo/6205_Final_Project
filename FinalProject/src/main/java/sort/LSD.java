@@ -45,11 +45,13 @@ public class LSD {
 
     public static void main(String[] args) {
         String[] a= {"abc1","abc2","abc1","acd2","xzf1","a1","ab1","a2"};
-        int max = su.getMaxLength(a);
-        LSD.sort(a,max);
-        for(int i = 0; i < a.length; i++)
+        String[] s= {"liuchiping","hongwensheng","fanhuihui","suhuimin","gaominzheng", "caoyude", "yuanjipeng", "shudongmei", "yanglaxiang",
+                "xx"};
+        int max = su.getMaxLength(s);
+        LSD.sort(s,max);
+        for(int i = 0; i < s.length; i++)
         {
-            System.out.println(a[i]);
+            System.out.println(s[i]);
         }
     }
 }
