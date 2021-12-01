@@ -15,7 +15,7 @@ public class int2Unicode2Pinyin {
 
         List<List<String>> records = new ArrayList<>();
         try(
-                BufferedReader br = new BufferedReader(new FileReader("book.csv")))
+                BufferedReader br = new BufferedReader(new FileReader("ChineseStroke.csv")))
 
         {
             String line;
