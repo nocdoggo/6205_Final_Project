@@ -6,6 +6,8 @@ import utils.PinyinDemo;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Demo {
     public static String[] toText(File file){
@@ -26,15 +28,18 @@ public class Demo {
     }
 
     public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
         long startTime = System.nanoTime();
         File file = new File("/Users/xuzifeng/Desktop/INFO6150/6205_Final_Project/FinalProject/src/main/resources/shuffledChinese.txt");
         String[] initial = toText(file);
         for (int i = 0; i < initial.length; i++) {
+            String temp = initial[i];
             initial[i] = PinyinDemo.ToPinyin(initial[i]);
+            map.put(initial[i],temp);
         }
         MSD.sort(initial);
         for (int i = 0; i < initial.length; i++) {
-            System.out.println(i+"="+initial[i]);
+            System.out.println(i+"="+map.get(initial[i]));
         }
         long endTime = System.nanoTime();
         double time = (endTime-startTime)/100000000;
