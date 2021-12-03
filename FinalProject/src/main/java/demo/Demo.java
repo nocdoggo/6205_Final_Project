@@ -1,11 +1,13 @@
-package FinalProject.src.main.java.demo;
+package demo;
 
-import FinalProject.src.main.java.sort.MSD;
+import sort.MSD;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Demo {
     public static String[] toText(File file){
@@ -26,18 +28,18 @@ public class Demo {
     }
 
     public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
         long startTime = System.nanoTime();
-        File file = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\test.txt");
+        File file = new File("/Users/xuzifeng/Desktop/INFO6150/6205_Final_Project/FinalProject/src/main/resources/shuffledChinese.txt");
         String[] initial = toText(file);
-        System.out.println(initial.length);
         for (int i = 0; i < initial.length; i++) {
-            System.out.println(initial[i]);
+            String temp = initial[i];
             initial[i] = PinyinDemo.ToPinyin(initial[i]);
-           // System.out.println(initial[i]);
+            map.put(initial[i],temp);
         }
         MSD.sort(initial);
         for (int i = 0; i < initial.length; i++) {
-            System.out.println(i+"="+initial[i]);
+            System.out.println(i+"="+map.get(initial[i]));
         }
         long endTime = System.nanoTime();
         double time = (endTime-startTime)/100000000;
