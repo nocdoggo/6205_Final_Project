@@ -13,7 +13,7 @@ public class inputProcessing {
             statement.execute("SELECT * FROM catalog");
             ResultSet tempCheck = statement.getResultSet();
             while(tempCheck.next()){
-                System.out.println(tempCheck.getString("stroke_index") + " " +
+                System.out.println(tempCheck.getInt("stroke_index") + " " +
                                     tempCheck.getString("pinyin_tone_stroke"));
             }
             tempCheck.close();
