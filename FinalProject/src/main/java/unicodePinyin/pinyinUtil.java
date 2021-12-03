@@ -21,7 +21,7 @@ public class pinyinUtil {
 			// the look up table
 			//change the directory accordingly.
 			p.load(new BufferedInputStream(pinyinUtil.class
-					.getResourceAsStream("/sample_dict.txt")));
+					.getResourceAsStream("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\unicodePinyin\\sample_dict.txt")));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
