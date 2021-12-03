@@ -1,6 +1,6 @@
-package FinalProject.src.main.java.sort;
+package sort;
 
-import FinalProject.src.main.java.utils.StringUtil;
+import utils.StringUtil;
 
 public class InsertionSort {
     private static StringUtil su = new StringUtil();

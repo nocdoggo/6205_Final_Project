@@ -1,9 +1,9 @@
-package FinalProject.src.main.java.sort;
+package sort;
 
 
 
-import FinalProject.src.main.java.utils.StringUtil;
-import sort.DualPivotSort;
+import utils.StringUtil;
+
 
 import java.util.Arrays;
 
@@ -24,7 +24,7 @@ public class TimSort {
         String[] a= {"a","abc","abcd","abc2","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
                 "sells", "zhangsan", "lisi", "jahahh"};
 
-        DualPivotSort.sort(a);
+        TimSort.sort(a);
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }

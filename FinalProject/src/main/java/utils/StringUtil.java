@@ -1,4 +1,4 @@
-package FinalProject.src.main.java.utils;
+package utils;
 
 /**
  * Pre-operation of input array

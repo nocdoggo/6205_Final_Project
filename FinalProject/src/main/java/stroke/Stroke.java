@@ -1,4 +1,4 @@
-package FinalProject.src.main.java.stroke;
+package stroke;
 
 public class Stroke{
     private int TransferCode(String name){

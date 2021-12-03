@@ -1,4 +1,4 @@
-package FinalProject.src.main.java.unicodePinyin;
+package unicodePinyin;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
