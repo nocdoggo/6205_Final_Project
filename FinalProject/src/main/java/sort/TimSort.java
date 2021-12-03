@@ -1,8 +1,9 @@
-package sort;
+package FinalProject.src.main.java.sort;
 
 
 
-import utils.StringUtil;
+import FinalProject.src.main.java.utils.StringUtil;
+import sort.DualPivotSort;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
-package demo;
+package FinalProject.src.main.java.demo;
 
-import sort.MSD;
+import FinalProject.src.main.java.sort.MSD;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
@@ -27,10 +27,13 @@ public class Demo {
 
     public static void main(String[] args) {
         long startTime = System.nanoTime();
-        File file = new File("/Users/xuzifeng/Desktop/INFO6150/6205_Final_Project/FinalProject/src/main/resources/shuffledChinese.txt");
+        File file = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\test.txt");
         String[] initial = toText(file);
+        System.out.println(initial.length);
         for (int i = 0; i < initial.length; i++) {
+            System.out.println(initial[i]);
             initial[i] = PinyinDemo.ToPinyin(initial[i]);
+           // System.out.println(initial[i]);
         }
         MSD.sort(initial);
         for (int i = 0; i < initial.length; i++) {
