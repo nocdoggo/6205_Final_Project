@@ -1,6 +1,6 @@
-package demo;
+package FinalProject.src.main.java.demo;
 
-import sort.MSD;
+import FinalProject.src.main.java.sort.MSD;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
@@ -30,7 +30,7 @@ public class Demo {
     public static void main(String[] args) {
         Map<String,String> map = new HashMap<>();
         long startTime = System.nanoTime();
-        File file = new File("/Users/xuzifeng/Desktop/INFO6150/6205_Final_Project/FinalProject/src/main/resources/shuffledChinese.txt");
+        File file = new File("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\unicodePinyin\\sample_dict.txt");
         String[] initial = toText(file);
         for (int i = 0; i < initial.length; i++) {
             String temp = initial[i];
