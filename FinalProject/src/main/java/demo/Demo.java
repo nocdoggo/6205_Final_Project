@@ -1,6 +1,6 @@
 package FinalProject.src.main.java.demo;
 
-import sort.MSD;
+import FinalProject.src.main.java.sort.MSD;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
