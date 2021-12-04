@@ -1,9 +1,8 @@
 package FinalProject.src.test.java.sort;
-import FinalProject.src.main.java.sort.MSD;
-import FinalProject.src.main.java.utils.BenchMark;
+import FinalProject.src.main.java.sort.DualPivotSort;
+import FinalProject.src.main.java.sort.LSD;
 import org.junit.Test;
 import utils.PinyinDemo;
-
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -13,7 +12,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.*;
 
-public class MSDTest {
+public class LSDTest {
     public static String[] toText(File file){
 
         String[] res = new String[1000000-2];
@@ -41,13 +40,12 @@ public class MSDTest {
     String[] expected = "are by seashells seashells seashore sells sells she she shells surely the the".split(" ");
     @Test
     public void sort() {
-        MSD.sort(input);
+        DualPivotSort.sort(input);
         System.out.println(Arrays.toString(input));
         assertArrayEquals(expected, input);
     }
     @Test
     public void sort1() {
-        Long start=BenchMark.StartTime();
         for(int i = 0; i < 25000; i++) {
             String temp = testorder[i];
             testorder[i] = PinyinDemo.ToPinyin(testorder[i]);
@@ -64,10 +62,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
-        Long end=BenchMark.EndTime();
-        Long timeGap=end-start;
-        BenchMark.toMillisecs(timeGap);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -88,7 +83,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -109,7 +104,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -130,7 +125,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -151,7 +146,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -172,7 +167,7 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -193,8 +188,8 @@ public class MSDTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        MSD.sort(temp1);
+        LSD.sort(temp1,5);
         assertArrayEquals(temp1, temp1);
     }
-
 }
+

@@ -4,24 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a26f761-76b0-4d6e-957e-ffeeea238c28" name="Changes" comment="" />
+    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="unittest">
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/main/java/sort/DualPivotSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/main/java/utils/BenchMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/BenchMark/BenchMarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/LSDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="21mst2MOTAsjejwNqM7b2Ru8gHT" />
   <component name="ProjectViewState">
@@ -32,15 +41,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FinalProject/src/test" />
   </component>
-  <component name="RunManager">
-    <configuration name="inputProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.inputProcessing" />
-      <module name="INFO6205_FinalProject" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test" />
+      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java" />
+      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java\sort" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="FinalProject.src.main.java.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BenchMarkTest">
+    <configuration name="BenchMarkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalProject.src.test.BenchMark.BenchMarkTest" />
+      <module name="6205_Final_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="FinalProject.src.test.BenchMark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,25 +68,116 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DualPrivotSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205_Final_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalProject.src.test.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FinalProject.src.test.java.sort" />
+      <option name="MAIN_CLASS_NAME" value="FinalProject.src.test.java.sort.DualPrivotSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MSDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205_Final_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalProject.src.test.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FinalProject.src.test.java.sort" />
+      <option name="MAIN_CLASS_NAME" value="FinalProject.src.test.java.sort.MSDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MSDTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205_Final_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalProject.src.test.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FinalProject.src.test.java.sort" />
+      <option name="MAIN_CLASS_NAME" value="FinalProject.src.test.java.sort.MSDTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205_Final_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalProject.src.test.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FinalProject.src.test.java.sort" />
+      <option name="MAIN_CLASS_NAME" value="FinalProject.src.test.java.sort.TimSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.inputProcessing" />
+        <item itemvalue="Application.BenchMarkTest" />
+        <item itemvalue="JUnit.MSDTest.sort" />
+        <item itemvalue="JUnit.TimSortTest" />
+        <item itemvalue="JUnit.MSDTest" />
+        <item itemvalue="JUnit.DualPrivotSortTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9a26f761-76b0-4d6e-957e-ffeeea238c28" name="Changes" comment="" />
+      <changelist id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="unittest" />
       <created>1638557809982</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638557809982</updated>
       <workItem from="1638557814675" duration="228000" />
+      <workItem from="1638565343019" duration="9449000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

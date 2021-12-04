@@ -1,6 +1,6 @@
-package sort;
+package FinalProject.src.main.java.sort;
 
-import utils.StringUtil;
+import FinalProject.src.main.java.utils.StringUtil;
 
 public class DualPivotSort {
 
@@ -63,7 +63,7 @@ public class DualPivotSort {
     }
 
     public static void main(String[] args) {
-        String[] a= {"ad","abc","abcd","abc2","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
+        String[] a= {"a","abc","abcd","abc2","she", "sells", "snell liabrary", "by", "the", "sunshine", "zhangfei", "guanyu", "shells", "jianzihao",
                 "sells", "zhangsan", "lisi", "jahahh"};
 
         DualPivotSort.sort(a);
