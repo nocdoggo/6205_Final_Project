@@ -1,6 +1,9 @@
 package sort;
 
+import edu.neu.coe.huskySort.sort.huskySort.PureHuskySort;
+import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
 import org.junit.Test;
+import utils.BenchMark;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
@@ -11,8 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.Assert.assertArrayEquals;
-
-public class TimSortTest {
+public class HuskySortTest {
     public static String[] toText(File file){
 
         String[] res = new String[1000000-2];
@@ -40,12 +42,14 @@ public class TimSortTest {
     String[] expected = "are by seashells seashells seashore sells sells she she shells surely the the".split(" ");
     @Test
     public void sort() {
-        TimSort.sort(input);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(input);
         System.out.println(Arrays.toString(input));
         assertArrayEquals(expected, input);
     }
     @Test
     public void sort1() {
+        Long start=BenchMark.StartTime();
         for(int i = 0; i < 25000; i++) {
             String temp = testorder[i];
             testorder[i] = PinyinDemo.ToPinyin(testorder[i]);
@@ -62,7 +66,11 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
+        Long end=BenchMark.EndTime();
+        Long timeGap=end-start;
+        BenchMark.toMillisecs(timeGap);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -83,7 +91,8 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -104,7 +113,8 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -125,7 +135,8 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -146,7 +157,8 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -167,7 +179,8 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
     @Test
@@ -188,8 +201,11 @@ public class TimSortTest {
             temp1[i]=testorder[i];
             temp2[i]=rightorder[i];
         }
-        TimSort.sort(temp1);
+        PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+        sorter.sort(temp1);
         assertArrayEquals(temp1, temp1);
     }
+
 }
+
 
