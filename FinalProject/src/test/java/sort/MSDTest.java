@@ -1,6 +1,5 @@
-package FinalProject.src.test.java.sort;
-import FinalProject.src.main.java.sort.MSD;
-import FinalProject.src.main.java.utils.BenchMark;
+package sort;
+import utils.BenchMark;
 import org.junit.Test;
 import utils.PinyinDemo;
 

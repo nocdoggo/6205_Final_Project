@@ -1,4 +1,4 @@
-package FinalProject.src.main.java.utils;
+package utils;
 
 public class BenchMark {
     public static long StartTime() {

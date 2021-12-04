@@ -1,5 +1,4 @@
-package FinalProject.src.test.java.sort;
-import FinalProject.src.main.java.sort.DualPivotSort;
+package sort;
 import org.junit.Test;
 import utils.PinyinDemo;
 
