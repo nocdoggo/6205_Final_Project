@@ -1,4 +1,4 @@
-package sort;
+package  sort;
 
 import utils.StringUtil;
 
@@ -7,7 +7,7 @@ public class MSD {
     private static String[] temp;
     private static StringUtil su = new StringUtil();
     private static final int M = 4;
-    private static final InsertionSort insertion = new InsertionSort();
+    private static final sort.InsertionSort insertion = new sort.InsertionSort();
 
 
     public static void sort(String[] s,int low,int high,int position){

@@ -1,8 +1,8 @@
-package FinalProject.src.test.BenchMark;
-import FinalProject.src.main.java.utils.BenchMark;
-import FinalProject.src.main.java.sort.DualPivotSort;
-import FinalProject.src.main.java.sort.TimSort;
-import FinalProject.src.main.java.sort.MSD;
+package sort;
+
+import edu.neu.coe.huskySort.sort.huskySort.PureHuskySort;
+import edu.neu.coe.huskySort.sort.huskySortUtils.HuskyCoderFactory;
+import utils.BenchMark;
 import utils.PinyinDemo;
 
 import java.io.BufferedReader;
@@ -52,6 +52,33 @@ public class BenchMarkTest {
 
         double meanTime=BenchMark.toMillisecs(timeGap)/5;
         System.out.println("MSDBenchMark-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
+
+    }
+    public static void HuskySortBenchMark(int length){
+
+        int loops=5;
+        long start=  BenchMark.StartTime();
+        for(int j=0;j<loops;j++){
+            Map<String,String> map = new HashMap<>();
+            File file = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\shuffledChinese.txt");
+            String[] testorder = toText(file);
+            for(int i = 0; i < 1000000-2; i++) {
+                String temp = testorder[i];
+                testorder[i] = PinyinDemo.ToPinyin(testorder[i]);
+                map.put(testorder[i],temp);
+            }
+            String[] temp1 = new String[length];
+            for(int i=0;i<length;i++){
+                temp1[i]=testorder[i];
+            }
+            PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
+            sorter.sort(temp1);
+        }
+        long end=BenchMark.EndTime();
+        long timeGap=end-start;
+
+        double meanTime=BenchMark.toMillisecs(timeGap)/5;
+        System.out.println("HuskySortBenchMark-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
 
     }
     public static void TimSortBenchMark(int length){
@@ -121,6 +148,11 @@ public class BenchMarkTest {
        length=25000;
         for(int i=0;i<6;i++) {
             TimSortBenchMark(length);
+            length*=2;
+        }
+        length=25000;
+        for(int i=0;i<6;i++) {
+            HuskySortBenchMark(length);
             length*=2;
         }
     }
