@@ -29,7 +29,7 @@ public class SqlSortTest {
         return res;
     }
     Map<String,String> map = new HashMap<>();
-    File file1 = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\pinyinrightorder.txt");
+    File file1 = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\pinyinorder(not considering polyphone.txt");
     String[] rightorder = toText(file1);
     File file = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\strokerightorder.txt");
     String[] strokerightorder = toText(file);
@@ -47,7 +47,7 @@ public class SqlSortTest {
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(50000));
     }
     @Test
-    public void sort3() throws SQLException {
+    public void sort3() throws SQLException{
 
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(100000));
     }
@@ -67,7 +67,7 @@ public class SqlSortTest {
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(800000));
     }
     @Test
-    public void sort7() throws SQLException {
+    public void sort7() throws SQLException{
 
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(1000000-2));
     }
