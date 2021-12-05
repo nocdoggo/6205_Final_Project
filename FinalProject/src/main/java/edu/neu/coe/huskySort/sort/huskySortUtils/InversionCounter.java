@@ -29,7 +29,7 @@ public class InversionCounter {
            for each of the parts */
             mid = (right + left) / 2;
 
-            /* Inversion count will be sum of inversions in left-part, right-part
+            /* Inversion count will be sum of inversions in left-partialArr, right-partialArr
           and number of inversions in merging */
             result = _inversionsRecursive(arr, temp, left, mid);
             result += _inversionsRecursive(arr, temp, mid + 1, right);
