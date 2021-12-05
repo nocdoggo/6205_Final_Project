@@ -19,7 +19,7 @@ public class int2Unicode2Pinyin {
 
         List<List<String>> records = new ArrayList<>();
 
-        try(BufferedReader br = new BufferedReader(new FileReader("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\ChineseStrokeNoChar.csv"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\lookupDB_no_header.csv"))){
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
@@ -36,7 +36,7 @@ public class int2Unicode2Pinyin {
         String[] pinyinOnly = new String[leng];
 
         // Testing
-        System.out.println("Testing single unit extraction :" + records.get(0).get(1));
+        System.out.println("Testing single unit extraction :" + records.get(0).get(2));
         System.out.println("Testing whole cell extraction :" + records.get(0));
 
         pinyinToneStroke = stripUnicode(records);
