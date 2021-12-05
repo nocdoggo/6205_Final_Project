@@ -8,7 +8,6 @@ import utils.PinyinDemo;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
@@ -136,7 +135,7 @@ public class BenchMarkTest {
       System.out.println("DualPrivotSortBenchMark-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
 
     }
-    public static void SqlSortBenchMark(int length) throws SQLException, IOException {
+    public static void SqlSortBenchMarkByPinYin(int length) throws SQLException{
 
         int loops=5;
         long start=  BenchMark.StartTime();
@@ -150,7 +149,21 @@ public class BenchMarkTest {
         System.out.println("SqlSortBenchMarkBypinyin-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
 
     }
-    public static void main(String[] args) throws SQLException, IOException {
+    public static void SqlSortBenchMarkByStroke(int length) throws SQLException{
+
+        int loops=5;
+        long start=  BenchMark.StartTime();
+        for(int j=0;j<loops;j++){
+            SqlSort.sortByStroke(length);
+        }
+        long end=BenchMark.EndTime();
+        long timeGap=end-start;
+
+        double meanTime=BenchMark.toMillisecs(timeGap)/5;
+        System.out.println("SqlSortBenchMarkByStroke-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
+
+    }
+    public static void main(String[] args) throws SQLException {
         int length=25000;
         for(int i=0;i<6;i++) {
             DualPrivotSortBenchMark(length);
@@ -173,7 +186,12 @@ public class BenchMarkTest {
         }
         length=25000;
         for(int i=0;i<6;i++) {
-            SqlSortBenchMark(length);
+            SqlSortBenchMarkByPinYin(length);
+            length*=2;
+        }
+        length=25000;
+        for(int i=0;i<6;i++) {
+            SqlSortBenchMarkByStroke(length);
             length*=2;
         }
 
