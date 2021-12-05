@@ -1,18 +1,17 @@
 package demo;
 
 import sort.MSD;
-import utils.PinyinDemo;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Demo {
+
+
     public static String[] toText(File file){
 
-        String[] res = new String[1000000];
+        String[] res = new String[999875];
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String s = null;
@@ -27,22 +26,24 @@ public class Demo {
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Map<String,String> map = new HashMap<>();
         long startTime = System.nanoTime();
-        File file = new File("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\unicodePinyin\\sample_dict.txt");
+        File file = new File("C:\\Users\\94868\\Desktop\\INFO6205\\project\\test3.txt");
         String[] initial = toText(file);
-        for (int i = 0; i < initial.length; i++) {
-            String temp = initial[i];
-            initial[i] = PinyinDemo.ToPinyin(initial[i]);
-            map.put(initial[i],temp);
+        for (int i = 0; i < 999875; i++) {
+            System.out.println(initial[i]);
         }
         MSD.sort(initial);
-        for (int i = 0; i < initial.length; i++) {
-            System.out.println(i+"="+map.get(initial[i]));
+        FileWriter writer1 = new FileWriter("C:\\Users\\94868\\Desktop\\INFO6205\\project\\outcomecome.csv");
+        for (int index = 0; index < 999875; index++) {
+            writer1.append(initial[index]);
+            writer1.append("\n");
         }
-        long endTime = System.nanoTime();
-        double time = (endTime-startTime)/100000000;
-        System.out.println(time);
+
+
     }
-}
+
+
+    }
+

@@ -38,12 +38,16 @@ public class SqlSortTest {
 
     @Test
     public void sort1() throws SQLException {
+        for(int i=0;i<100;i++) {
 
+        }
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(25000));
     }
     @Test
     public void sort2() throws SQLException {
+        for(int i=0;i<100;i++) {
 
+        }
         assertArrayEquals(rightorder, SqlSort.sortByPinYin(50000));
     }
     @Test

@@ -2,13 +2,14 @@ package sort;
 import org.junit.Test;
 import utils.PinyinDemo;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+import static org.junit.Assert.assertArrayEquals;
 
 public class LSDTest {
     public static String[] toText(File file){
@@ -61,7 +62,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort2() {
@@ -82,7 +83,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort3() {
@@ -103,7 +104,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort4() {
@@ -124,7 +125,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort5() {
@@ -145,7 +146,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort6() {
@@ -166,7 +167,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
     @Test
     public void sort7() {
@@ -187,7 +188,7 @@ public class LSDTest {
             temp2[i]=rightorder[i];
         }
         LSD.sort(temp1,5);
-        assertArrayEquals(temp1, temp1);
+        assertArrayEquals(temp2, temp1);
     }
 }
 

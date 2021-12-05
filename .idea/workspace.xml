@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="sql sort, test and benchmark update">
+    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="sample.xlsx">
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MergeProcessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/resources/chineseshuffle,code.version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/resources/pinyinrightorder, code.version.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/preprocess/int2Unicode2Pinyin_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/preprocess/int2Unicode2Pinyin_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/HuskySortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/HuskySortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/LSDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/LSDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/SqlSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/SqlSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/TimSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/TimSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -60,10 +72,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test\resources" />
+      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java\lookuptable" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test" />
-      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java\sort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test\java\sort" />
@@ -72,7 +84,7 @@
       <recent name="FinalProject.src.main.java.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SqlSortTest">
+  <component name="RunManager" selected="Application.BenchMarkTest">
     <configuration name="BenchMarkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BenchMarkTest" />
       <module name="INFO6205_FinalProject" />
@@ -99,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="int2Unicode2Pinyin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="preprocess.int2Unicode2Pinyin" />
-      <module name="INFO6205_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="preprocess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -121,6 +120,36 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DualPrivotSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205_FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.DualPrivotSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuskySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205_FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.HuskySortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,29 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqlSortTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO6205_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SqlSortTest" />
-      <option name="METHOD_NAME" value="sort1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BenchMarkTest" />
         <item itemvalue="JUnit.SqlSortTest" />
         <item itemvalue="Application.SqlSort" />
-        <item itemvalue="JUnit.SqlSortTest.sort1" />
-        <item itemvalue="Application.int2Unicode2Pinyin" />
-        <item itemvalue="Application.BenchMarkTest" />
+        <item itemvalue="JUnit.DualPrivotSortTest" />
+        <item itemvalue="JUnit.HuskySortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +198,7 @@
       <workItem from="1638665945153" duration="5953000" />
       <workItem from="1638720810461" duration="8994000" />
       <workItem from="1638733671386" duration="672000" />
-      <workItem from="1638734360714" duration="2076000" />
+      <workItem from="1638734360714" duration="12340000" />
     </task>
     <task id="LOCAL-00001" summary="test &amp; benchmark">
       <created>1638576117062</created>
@@ -222,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638735685795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sample.xlsx">
+      <created>1638736674672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638736674672</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +263,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test &amp; benchmark" />
     <MESSAGE value="sql sort, test and benchmark update" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql sort, test and benchmark update" />
+    <MESSAGE value="sample.xlsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample.xlsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,8 +275,24 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FinalProject/src/test/java/sort/SqlSortTest.java</url>
-          <line>88</line>
+          <line>92</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FinalProject/src/main/java/demo/Demo.java</url>
+          <line>28</line>
+          <properties class="demo.Demo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java</url>
+          <line>42</line>
+          <properties class="sort.MSDTest" method="sort1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

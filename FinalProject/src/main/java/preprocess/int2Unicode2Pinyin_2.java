@@ -19,7 +19,7 @@ public class int2Unicode2Pinyin_2 {
 
         List<List<String>> records = new ArrayList<>();
 
-        try(BufferedReader br = new BufferedReader(new FileReader("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\lookupDB_no_header.csv"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\94868\\Desktop\\INFO6205\\project\\lookupDB_no_header.csv"))){
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
@@ -46,7 +46,7 @@ public class int2Unicode2Pinyin_2 {
 //        System.out.println("The char is :" + String.valueOf(Character.toChars(pinyinToneStroke[1070])));
 
         // Write out to csv
-        FileWriter writer = new FileWriter("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\pinyinToneStroke2.csv");
+        FileWriter writer = new FileWriter("C:\\Users\\94868\\Desktop\\INFO6205\\project\\pinyinToneStroke2.csv");
         for (int index = 0; index < leng; index++) {
             writer.append(pinyinToneStroke[index]);
             writer.append("\n");
@@ -54,7 +54,7 @@ public class int2Unicode2Pinyin_2 {
 
         writer.close();
 
-        FileWriter writer2 = new FileWriter("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\pinyinTone2.csv");
+        FileWriter writer2 = new FileWriter("C:\\Users\\94868\\Desktop\\INFO6205\\project\\pinyinTone2.csv");
         for (int index = 0; index < leng; index++) {
             writer2.append(pinyinTone[index]);
             writer2.append("\n");
@@ -62,7 +62,7 @@ public class int2Unicode2Pinyin_2 {
 
         writer2.close();
 
-        FileWriter writer3 = new FileWriter("D:\\GitHub\\6205_Final_Project\\FinalProject\\src\\main\\java\\preprocess\\pinyinOnly2.csv");
+        FileWriter writer3 = new FileWriter("C:\\Users\\94868\\Desktop\\INFO6205\\project\\pinyinOnly2.csv");
         for (int index = 0; index < leng; index++) {
             writer3.append(pinyinOnly[index]);
             writer3.append("\n");
