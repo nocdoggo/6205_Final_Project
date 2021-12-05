@@ -13,11 +13,14 @@ public class SqlSort {
         while(tempCheck.next()){
             name[count]=tempCheck.getString("orig_name");
             count++;
+
         }
         tempCheck.close();
         statement.close();
         conn.close();
+
         return name;
+
     }
     public static String[] sortByStroke(int length) throws SQLException {
         Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\94868\\Desktop\\dbcore.db");
@@ -35,8 +38,6 @@ public class SqlSort {
         conn.close();
         return name;
     }
-    public static void main(String[] args) throws SQLException {
-        sortByStroke(5);
-    }
+
 
 }

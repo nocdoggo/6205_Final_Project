@@ -8,6 +8,7 @@ import utils.PinyinDemo;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
@@ -135,7 +136,7 @@ public class BenchMarkTest {
       System.out.println("DualPrivotSortBenchMark-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
 
     }
-    public static void SqlSortBenchMark(int length) throws SQLException {
+    public static void SqlSortBenchMark(int length) throws SQLException, IOException {
 
         int loops=5;
         long start=  BenchMark.StartTime();
@@ -149,7 +150,7 @@ public class BenchMarkTest {
         System.out.println("SqlSortBenchMarkBypinyin-----------length is"+length+"---------Mean Time is----------"+meanTime+"ms");
 
     }
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, IOException {
         int length=25000;
         for(int i=0;i<6;i++) {
             DualPrivotSortBenchMark(length);
