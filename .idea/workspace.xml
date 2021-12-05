@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="sql sort, test and benchmark update">
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/resources/pinyinorder(not considering polyphone.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/SqlSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/SqlSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -189,7 +185,7 @@
       <workItem from="1638665945153" duration="5953000" />
       <workItem from="1638720810461" duration="8994000" />
       <workItem from="1638733671386" duration="672000" />
-      <workItem from="1638734360714" duration="1315000" />
+      <workItem from="1638734360714" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="test &amp; benchmark">
       <created>1638576117062</created>
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638733761402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sql sort, test and benchmark update">
+      <created>1638735685795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638735685795</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
