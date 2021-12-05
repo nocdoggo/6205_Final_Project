@@ -1,17 +1,16 @@
 Columns in the table
 _id, stroke_index, character, num_stroke, pinyin, pinyin_tone, pinyin_tone_stroke
 
-D:/GitHub/6205_Final_Project/FinalProject/src/main/database/
+D:/GitHub/6205_Final_Project/FinalProject/src/main/database/lookupDB_no_header.csv
 
-D:/GitHub/6205_Final_Project/FinalProject/src/main/java/demo
+D:/GitHub/6205_Final_Project/FinalProject/src/main/java/demo/shuffledChinese_forDB.csv
 catalog:
 CREATE TABLE catalog(
 _id INTEGER PRIMARY KEY,
-stroke_index INTEGER NOT NULL,
-character TEXT NOT NULL,
+character TEXT,
 num_stroke INTEGER NOT NULL,
-pinyin_tone TEXT NOT NULL,
-pinyin_tone_stroke TEXT NOT NULL
+pinyin_tone TEXT,
+pinyin_tone_stroke TEXT
 );
 
 .schema inputs
@@ -29,10 +28,10 @@ full_stroke BIGINT,
 pinyin_full TEXT
 );
 
+INSERT INTO converted (orig_name, full_stroke, pinyin_full) 
 SELECT orig_name, 
-catalog1.stroke_index, 
-catalog2.stroke_index, 
-catalog3.stroke_index, 
+(catalog1._id * 10000000000 + catalog2._id * 100000 + catalog3._id), 
+(catalog1.pinyin_tone_stroke) || (catalog2.pinyin_tone_stroke) || (catalog3.pinyin_tone_stroke) 
 from inputs i 
 INNER JOIN catalog catalog1 on i.first_char = catalog1.character 
 INNER JOIN catalog catalog2 on i.second_char = catalog2.character 
