@@ -75,7 +75,9 @@ Since Chinese is a pictograph, the best way to get the number of strokes is to m
 
 However, there can be cases where the Chinese characters share the same pronunciation and stroke number, for instance, '晖' and '珲' both share a pinyin and tone format of 'hui1', and their stroke numbers are both 10. Then the absolute index value of a given Chinese character becomes important in ruling out the biases.
 
-Based on the given information, we have constructed a unique storage structure string to present each character as:
+![chaos](img/chaos.jpg)
+
+In the figure above, we can see that there are two entries which share the same pinyin plus tone formatted string. In order to differentiate them, based on the given information, we have constructed a unique storage structure string to present each character as:
 
 ![Block Simple](img/Block1.png)
 
@@ -172,7 +174,7 @@ INNER JOIN catalog catalog3 on i.third_char = catalog3.character;
 
 Do notice that an optimization was made to help reducing the length of the unique identification string with the format mentioned in `Section 3.1.1`, the first Chinese character represented in the table, which is the surname or last name of a Chinese name, will extremely less likely to cause any issues mentioned in `Section 3.1.1`. Therefore, we could omit the stroke index number for the first Chinese character in each string. In this way, the overall size of the database reduced from 85105 KB to 79676 KB without sacrificing the accuracy rate.
 
-Once the tables are constructed, the unique identifier storage strings are pulled from the database by the usage of `SELECT` statement to feed into various sorting algorithms.
+Once the tables are constructed, the unique identifier storage strings are pulled from the database by the usage of `SELECT` statement to feed into various sorting algorithms with <cite>[references][7]</cite>.
 
 ## 4. Observations and Benchmarks
 
@@ -243,3 +245,5 @@ Therefore, in the future if possible, we contend that the fastest Chinese sortin
 [5]: *重*. 维基词典，自由的多语言词典. (n.d.). Retrieved December 6, 2021, from https://zh.m.wiktionary.org/zh-hans/%E9%87%8D. 
 
 [6]: *三*. 维基词典，自由的多语言词典. (n.d.). Retrieved December 6, 2021, from https://zh.m.wiktionary.org/wiki/%E4%B8%89. 
+
+[7]: *算法#12--详解各种字符串排序算法和代码实现*. 算法#12--详解各种字符串排序算法和代码实现_tclxspy的博客-CSDN博客. (n.d.). Retrieved December 6, 2021, from https://blog.csdn.net/tclxspy/article/details/52596559. 
