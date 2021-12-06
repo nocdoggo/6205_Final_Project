@@ -41,13 +41,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort1() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[25000];
-        String[] temp3 = new String[25000];
+        String[] temp2 = new String[5000];
+        String[] temp3 = new String[5000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<25000;i++){
+        for(int i=0;i<5000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -59,13 +59,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort2() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[50000];
-        String[] temp3 = new String[50000];
+        String[] temp2 = new String[10000];
+        String[] temp3 = new String[10000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<50000;i++){
+        for(int i=0;i<10000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -77,13 +77,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort3() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[100000];
-        String[] temp3 = new String[100000];
+        String[] temp2 = new String[20000];
+        String[] temp3 = new String[20000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<100000;i++){
+        for(int i=0;i<20000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -95,13 +95,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort4() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[200000];
-        String[] temp3 = new String[200000];
+        String[] temp2 = new String[40000];
+        String[] temp3 = new String[40000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<200000;i++){
+        for(int i=0;i<40000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -113,13 +113,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort5() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[400000];
-        String[] temp3 = new String[400000];
+        String[] temp2 = new String[80000];
+        String[] temp3 = new String[80000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<400000;i++){
+        for(int i=0;i<80000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -131,13 +131,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort6() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[800000];
-        String[] temp3 = new String[800000];
+        String[] temp2 = new String[90000];
+        String[] temp3 = new String[90000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<800000;i++){
+        for(int i=0;i<90000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }
@@ -149,13 +149,13 @@ public class DualPrivotSortTest {
     @Test
     public void sort7() {
         String[] temp1 = new String[1000000-2];
-        String[] temp2 = new String[1000000-2];
-        String[] temp3 = new String[1000000-2];
+        String[] temp2 = new String[98000];
+        String[] temp3 = new String[98000];
         for(int i=0;i<1000000-2;i++){
             temp1[i]=testorder[i];
         }
         DualPivotSort.sort(temp1);
-        for(int i=0;i<1000000-2;i++){
+        for(int i=0;i<98000;i++){
             temp3[i]=temp1[i];
             temp2[i]=rightorder[i];
         }

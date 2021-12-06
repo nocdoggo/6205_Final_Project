@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MultiThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/resources/chineseshuffle,codestroke.version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/test/resources/strokeorder,codestroke.version.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/MergeProcessTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <recent name="FinalProject.src.main.java.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiThreadTest.sort1">
+  <component name="RunManager" selected="JUnit.DualPrivotSortTest">
     <configuration name="MultiMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.MultiMergeSort" />
       <module name="INFO6205_FinalProject" />
@@ -130,6 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DualPrivotSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205_FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.DualPrivotSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiThreadTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO6205_FinalProject" />
       <extension name="coverage">
@@ -146,28 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO6205_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.TimSortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DualPrivotSortTest" />
         <item itemvalue="JUnit.MultiThreadTest.sort1" />
         <item itemvalue="Application.MultiThreadTest" />
         <item itemvalue="Application.SqlSort" />
         <item itemvalue="Application.MultiMergeSort" />
-        <item itemvalue="JUnit.TimSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +186,7 @@
       <workItem from="1638665945153" duration="5953000" />
       <workItem from="1638720810461" duration="8994000" />
       <workItem from="1638733671386" duration="672000" />
-      <workItem from="1638734360714" duration="18660000" />
+      <workItem from="1638734360714" duration="18863000" />
     </task>
     <task id="LOCAL-00001" summary="test &amp; benchmark">
       <created>1638576117062</created>
@@ -241,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638746768649</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1638753048930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638753048930</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
