@@ -3,6 +3,10 @@ Update: Dec 06 @ 19:00
 
 The final result can be found under `~/FinalProject/sample.xlsx`.
 
+Do note that, the results generated based on various sort algorithms based on user-defined pinyin order were able to yield same results as what Microsoft Excel would officially sort the names in. Only after over 25% of the input data fed into the application would our results diverse from the official results due to some Chinese characters would have different pronunciations. Pinyin4J would offer results different than what Excel has provided dynamically. 
+
+For user-defined stroke-based sorting algorithm, we would yield same results as what the Excel has processed. 
+
 The benchmark machine has:
 
 |      | ID              | Specification |
