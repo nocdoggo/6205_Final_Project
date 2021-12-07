@@ -1,4 +1,19 @@
 # 6205_Final_Project
+Update: Dec 06 @ 19:00
+
+The final result can be found under `~/FinalProject/sample.xlsx`.
+
+The benchmark machine has:
+
+|      | ID              | Specification |
+| ---- | --------------- | ------------- |
+| CPU  | AMD Ryzen 5800H | 4C/8T         |
+| RAM  | 32GB            | DDR4 3200MHz  |
+
+
+
+---
+
 The project is designed to tackle with the `Final Project` requirement for `INFO 6205` course provided by `Northeastern University`.
 
 Environment version:</br>
