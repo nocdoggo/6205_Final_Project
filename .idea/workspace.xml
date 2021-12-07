@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="test">
+    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FinalProject/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FinalProject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39264706" />
@@ -59,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test\resources" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject" />
+      <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test\resources" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java\lookuptable" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\main\java" />
       <recent name="C:\Users\94868\Documents\GitHub\6205_Final_Project\FinalProject\src\test" />
@@ -72,7 +72,7 @@
       <recent name="FinalProject.src.main.java.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BenchMarkTest">
+  <component name="RunManager" selected="JUnit.MSDTest">
     <configuration name="MultiThreadTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO6205_FinalProject" />
       <extension name="coverage">
@@ -102,26 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MultiThreadTest" />
-      <module name="INFO6205_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,6 +125,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
       <option name="MAIN_CLASS_NAME" value="sort.DualPrivotSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MSDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205_FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.MSDTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MSDTest" />
         <item itemvalue="Application.BenchMarkTest" />
         <item itemvalue="Android JUnit.MultiThreadTest" />
         <item itemvalue="JUnit.DualPrivotSortTest" />
         <item itemvalue="JUnit.MultiThreadTest.sort1" />
-        <item itemvalue="Application.MultiThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +193,7 @@
       <workItem from="1638734360714" duration="19145000" />
       <workItem from="1638756875795" duration="1929000" />
       <workItem from="1638819832792" duration="46000" />
+      <workItem from="1638834052027" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="test &amp; benchmark">
       <created>1638576117062</created>
@@ -260,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638759736766</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sample">
+      <created>1638834121289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638834121289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +295,8 @@
     <MESSAGE value="sql sort, test and benchmark update" />
     <MESSAGE value="sample.xlsx" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
