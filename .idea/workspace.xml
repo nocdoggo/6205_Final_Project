@@ -4,8 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="sample">
+    <list default="true" id="8a3b112a-08a9-4237-8fe3-b8e80dae3bfe" name="Default Changelist" comment="delete duplicate file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/INFO6205_FinalProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/6205_Final_Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/libraries/sqlite_jdbc_3_36_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/FinalProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/INFO6205_FinalProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/database/dbcore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/database/lookupDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/database/lookupDB_no_header.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/database/table_skeleton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/demo/shuffledChinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/Chinese.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/ChineseStroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/ChineseStrokeNoChar.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/lookupDB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/pinyinOnly.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/pinyinTone.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/preprocess/pinyinToneStroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/java/unicodePinyin/sample_dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/resources/Stroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/main/resources/shuffledChinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/test/resources/ChineseStroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/test/resources/pinyinrightorder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/src/test/resources/shuffledChinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/classes/Stroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/classes/shuffledChinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/test-classes/ChineseStroke.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/FinalProject/target/test-classes/shuffledChinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/10.1.1.45.139.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/1000003572466.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/3G终端拼音输入法字库搜索算法的设计与实现.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/An_Efficient_Algorithm_of_Chinese_String_Sort_in_User-Defined_Sequence.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/Optimizing_the_Learning_Order_of_Chinese_Character.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/中文数据排序与快速检索方法研究.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/关于汉字字符串排序算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于J2EE架构的高校毕业生信息管理系统设计.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于JAVA的快速排序.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于地名首字母模糊查询的关键技术研究.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于字形编码与拼音编码的近似商标辨识算法研究.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于拼音首字母查询的去重优化设计.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于汉字拼音声调的文本水印算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于汉语拼音的鲁棒性文本水印算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于汉语拼音首字母索引的混合分词算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于特征向量和笔顺编码的字形相似算法研究.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于笔划和笔顺的汉字识别算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/基于音码相似度的拼音模糊查询算法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/将汉字转化为拼音的研究与实现.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/拼音检索方法在Web系统中的研究与实现.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/汉字笔顺识别的算法与实现.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/用汉语拼音检索数据库中的中文信息.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/笔顺输入法的汉字搜索算法研究.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Papers/繁简体汉字按拼音与混合字符按字典序排序.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Toolkits/DB.Browser.for.SQLite-3.12.2.dmg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/Toolkits/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/log/Logfile.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/log/Snapshot.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/log/Version_Number" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/pinyin4j-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/6205_Final_Project/sqlite-jdbc-3.36.0.3.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +126,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/MultiMergeSort.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/preprocess/int2Unicode2Pinyin_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/MergeProcess.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinalProject/src/test/java/sort/MSDTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/preprocess/int2Unicode2Pinyin.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/MergeProcess.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinalProject/src/test/java/sort/DualPrivotSortTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FinalProject/src/test/resources/chineseshuffle,codestroke.version.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/SqlSort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinalProject/src/test/java/sort/BenchMarkTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/preprocess/int2Unicode2Pinyin_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FinalProject/src/main/java/sort/MultiMergeSort.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +174,7 @@
       <recent name="FinalProject.src.main.java.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DualPrivotSortTest">
+  <component name="RunManager" selected="JUnit.HuskySortTest">
     <configuration name="MultiThreadTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO6205_FinalProject" />
       <extension name="coverage">
@@ -113,19 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DualPrivotSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO6205_FinalProject" />
       <extension name="coverage">
@@ -136,6 +214,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
       <option name="MAIN_CLASS_NAME" value="sort.DualPrivotSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuskySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO6205_FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.HuskySortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,29 +249,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO6205_FinalProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.MultiThreadTest" />
-      <option name="METHOD_NAME" value="sort1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HuskySortTest" />
         <item itemvalue="JUnit.DualPrivotSortTest" />
         <item itemvalue="JUnit.MSDTest" />
         <item itemvalue="Application.BenchMarkTest" />
         <item itemvalue="Android JUnit.MultiThreadTest" />
-        <item itemvalue="JUnit.MultiThreadTest.sort1" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +291,8 @@
       <workItem from="1639355283341" duration="185000" />
       <workItem from="1639355487540" duration="122000" />
       <workItem from="1639355639054" duration="14000" />
+      <workItem from="1639359833406" duration="184000" />
+      <workItem from="1639361727217" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="test &amp; benchmark">
       <created>1638576117062</created>
@@ -299,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638836666248</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="sample">
+      <created>1639359889331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639359889331</updated>
+    </task>
+    <task id="LOCAL-00014" summary="delete duplicate file">
+      <created>1639359957528</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639359957528</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +416,8 @@
     <MESSAGE value="sample.xlsx" />
     <MESSAGE value="test" />
     <MESSAGE value="sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample" />
+    <MESSAGE value="delete duplicate file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete duplicate file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
